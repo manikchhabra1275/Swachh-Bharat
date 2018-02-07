@@ -1,0 +1,49 @@
+.container {
+  height:100%;
+  width:100%;
+  padding:1%;
+}
+#grad {
+    background: linear-gradient(to bottom right, skyblue, blue); 
+}
+.top {
+  margin-top: 1%;
+}
+
+.button {
+  float:right;
+}
+
+body {
+  color:black ;
+  
+  font-family: 'Bubbler One', sans-serif;
+  text-align: justify;
+
+
+}
+.aboutus {
+  font-size: 25px;
+}
+
+.footer {
+  font-size: 25px;
+}
+@media screen and (max-width: 980px) {
+  .container {
+    width:100%;
+  }
+  .button {
+    display:none;
+  }
+  .top {
+  width:70%;
+  }
+
+  .bottom {
+    width:70%;
+  }
+}
+  .heading {
+      color:black;
+  }
